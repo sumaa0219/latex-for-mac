@@ -27,26 +27,26 @@
   \documentclass[a4paper,11pt]{jsarticle}
 
 
-% 数式
-\usepackage{amsmath,amsfonts}
-\usepackage{bm}
-% 画像
-\usepackage[dvipdfmx]{graphicx,xcolor}
+  % 数式
+  \usepackage{amsmath,amsfonts}
+  \usepackage{bm}
+  % 画像
+  \usepackage[dvipdfmx]{graphicx,xcolor}
 
-\usepackage{tikz}
-\usetikzlibrary{intersections, calc, arrows.meta}
-
-
-\begin{document}
-
-\title{}
-\author{}
-\date{\today}
-\maketitle
+  \usepackage{tikz}
+  \usetikzlibrary{intersections, calc, arrows.meta}
 
 
+  \begin{document}
+
+  \title{}
+  \author{}
+  \date{\today}
+  \maketitle
 
 
 
-\end{document}
+
+
+  \end{document}
   ```
