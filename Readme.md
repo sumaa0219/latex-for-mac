@@ -35,29 +35,11 @@
   
 - テンプレート 
   ```
-  \documentclass[a4paper,11pt]{jsarticle}
-
-
-  % 数式
-  \usepackage{amsmath,amsfonts}
-  \usepackage{bm}
-  % 画像
-  \usepackage[dvipdfmx]{graphicx,xcolor}
-
-  \usepackage{tikz}
-  \usetikzlibrary{intersections, calc, arrows.meta}
-
-
+  \documentclass[uplatex]{jsarticle}
   \begin{document}
-
-  \title{}
-  \author{}
-  \date{\today}
-  \maketitle
-
-
-
-
-
+  \begin{equation}
+    f(x) = x^2 + 2x + 1\\
+    x=13234+134
+  \end{equation}
   \end{document}
   ```
