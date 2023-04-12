@@ -8,21 +8,21 @@
   ```
   brew update && brew upgrade && brew cleanup
   ```
- - latex のインストール
+- latex のインストール
   ```
   brew install mactex-no-gui
   ```
- - Pathの設定
+- Pathの設定
   ```
   export PATH=$PATH:/usr/local/texlive/2023/bin/universal-darwin
   ```
- - latex liveのアップデート
+- latex liveのアップデート
   ```
   sudo tlmgr update --self --all
   ```
   
   
- - テンプレート 
+- テンプレート 
   ```
   \documentclass[a4paper,11pt]{jsarticle}
 
